@@ -219,7 +219,11 @@ const genEmail = length =>
   });
 
 const domain = [
-  "todayemail.ga"
+  "todayemail.ga",
+  "creo.iotu.nctu.me",
+  "nasa.dmtc.edu.pl",
+  "41054733.mail-temp.com",
+  "derbydales.co.uk"
 ];
 (async () => {
   try {
