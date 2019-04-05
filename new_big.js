@@ -9,7 +9,7 @@ const moment = require("moment");
 const rp = require("request-promise");
 
 console.log("####################");
-console.log("  REWORK BY REALDI  ");
+console.log("  REWORK BY REAL-D  ");
 console.log("####################");
 
 console.log("");
