@@ -225,11 +225,11 @@ const domain = [
   "41054733.mail-temp.com",
   "derbydales.co.uk",
   "aiot.vuforia.us",
-  " edu.creo.site",
+  "edu.creo.site",
   "50sale.edu.vn",
-  " aiot.aiphone.eu.org",
+  "aiot.aiphone.eu.org",
   "edu.dmtc.press",
-  " pengangguran.me"
+  "pengangguran.me"
 ];
 (async () => {
   try {
