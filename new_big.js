@@ -224,12 +224,16 @@ const domain = [
   "nasa.dmtc.edu.pl",
   "41054733.mail-temp.com",
   "derbydales.co.uk",
-  "aiot.vuforia.us",
   "edu.creo.site",
   "50sale.edu.vn",
   "aiot.aiphone.eu.org",
   "edu.dmtc.press",
-  "pengangguran.me"
+  "pengangguran.me",
+  "inibuatsgb.tk",
+  "inibuatsgb.gq",
+  "inibuatsgb.ga",
+  "inibuatsgb.ml",
+  "inibuatsgb.cf"
 ];
 (async () => {
   try {
@@ -353,7 +357,7 @@ const domain = [
             " " +
             moment().format("HH:mm:ss") +
             " " +
-            "Email Sudah Terdaftar"
+            "$(domain)"
         );
         console.log("");
         console.log("");
