@@ -229,9 +229,7 @@ const domain = [
   "50sale.edu.vn",
   " aiot.aiphone.eu.org",
   "edu.dmtc.press",
-  " pengangguran.me",
-  "10minutemail.net",
-  "10minutemail.com"
+  " pengangguran.me"
 ];
 (async () => {
   try {
