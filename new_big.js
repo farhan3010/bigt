@@ -219,21 +219,12 @@ const genEmail = length =>
   });
 
 const domain = [
-  "todayemail.ga",
-  "creo.iotu.nctu.me",
-  "nasa.dmtc.edu.pl",
+  "todayemail.ga"
   "41054733.mail-temp.com",
   "derbydales.co.uk",
-  "edu.creo.site",
-  "50sale.edu.vn",
   "aiot.aiphone.eu.org",
-  "edu.dmtc.press",
-  "pengangguran.me",
-  "inibuatsgb.tk",
-  "inibuatsgb.gq",
-  "inibuatsgb.ga",
-  "inibuatsgb.ml",
-  "inibuatsgb.cf"
+  "aminudin.me",
+  "pengangguran.me"
 ];
 (async () => {
   try {
@@ -264,7 +255,9 @@ const domain = [
             " " +
             "Sukses register dengan email :" +
             " " +
-            `${email}`
+            "${email}" +
+          " " +
+          "domain mati"
         );
 
         const createMail = await functionCreateEmail(emel, item);
