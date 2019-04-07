@@ -219,7 +219,7 @@ const genEmail = length =>
   });
 
 const domain = [
-  "todayemail.ga"
+  "todayemail.ga",
   "41054733.mail-temp.com",
   "derbydales.co.uk",
   "aiot.aiphone.eu.org",
