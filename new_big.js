@@ -210,7 +210,7 @@ const genEmail = length =>
   new Promise((resolve, reject) => {
     var text = "";
     var possible =
-      "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_-";
 
     for (var i = 0; i < length; i++)
       text += possible.charAt(Math.floor(Math.random() * possible.length));
@@ -223,14 +223,13 @@ const domain = [
   "41054733.mail-temp.com",
   "derbydales.co.uk",
   "aiot.aiphone.eu.org",
-  "aminudin.me",
-  "pengangguran.me"
+  "aminudin.me"
 ];
 (async () => {
   try {
     for (let index = 0; index < LooP; index++) {
       const item = await domain[(Math.random() * domain.length) | 0];
-      const emel = await genEmail(20);
+      const emel = await genEmail(21);
       await delay(10000);
       const register = await functionRegister(emel, item);
       const email = emel + "@" + item;
